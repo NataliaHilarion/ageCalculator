@@ -11,33 +11,31 @@
 </head>
 
 <body>
-  <div class="container">
-    <form>
-      <div class="base">
-        <div class="enter">
-          <h4>Age Calculator</h4>
-        </div>
-        <div class="block">
+  <main>
+    <articule class="calc">
+      <div class="calc-header">
+        <h1>Age Calculator</h1>
+      </div>
+      <div class="calc-body">
+         <div class="calc-body-block">
           <p class="title">Date</p>
           <input autofocus type="text" name="date" id="date" placeholder="dd" required="required" minlength="1" maxlength="2" />
         </div>
-        <div class="block">
+        <div class="calc-body-block">
           <p class="title">Month</p>
           <input type="text" name="month" id="month" placeholder="mm" required="required" minlength="1" maxlength="2" />
         </div>
-        <div class="block">
+        <div class="calc-body-block">
           <p class="title">Year</p>
           <input type="text" name="year" id="year" placeholder="yyyy" required="required" minlength="4" maxlength="4" />
         </div>
       </div>
-      <div class="base">
-        <div class="enter">
-          <input type="button" name="submit" value="Submit" class="button" />
-        </div>
+      <div class="calc-footer">
+         <input type="button" name="submit" value="Submit" class="button" />
       </div>
       <div class="age"></div>
-    </form>
-  </div>
+    </articule>
+  </main>
   <script src="./js/index.js"></script>
 </body>
 
